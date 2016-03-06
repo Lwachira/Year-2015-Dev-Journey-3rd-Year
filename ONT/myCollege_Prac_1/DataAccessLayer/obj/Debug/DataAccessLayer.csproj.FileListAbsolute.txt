@@ -1,0 +1,5 @@
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\ONT\myCollege_Prac_1\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\ONT\myCollege_Prac_1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\ONT\myCollege_Prac_1\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\ONT\myCollege_Prac_1\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\ONT\myCollege_Prac_1\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
