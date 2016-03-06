@@ -55,7 +55,7 @@ namespace DataAccessLayer
         internal static DataTable ExecuteParamerizedSelectCommand(string commandName, CommandType cmdType,SqlParameter[] param)
         {
             DataTable table = new DataTable();
-            using (SqlConnection con = new SqlConnection())
+            using (SqlConnection con = new SqlConnection(dbConnection))
             {
                 using (SqlCommand cmd = con.CreateCommand())
                 {

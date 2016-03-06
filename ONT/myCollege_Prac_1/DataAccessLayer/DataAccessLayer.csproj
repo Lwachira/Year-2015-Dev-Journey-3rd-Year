@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="courseVenueClass\courseVenueAccess.cs" />
+    <Compile Include="courseVenueClass\courseVenueHandler.cs" />
+    <Compile Include="courseVenueClass\wpCourseVenue.cs" />
     <Compile Include="dbHelper.cs" />
     <Compile Include="enrollClass\enrollAccess.cs" />
     <Compile Include="enrollClass\enrollHandler.cs" />
