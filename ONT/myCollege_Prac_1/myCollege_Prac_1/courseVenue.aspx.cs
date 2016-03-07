@@ -13,8 +13,10 @@ namespace myCollege_Prac_1
         protected void Page_Load(object sender, EventArgs e)
         {
             courseVenueHandler cVenueHandler = new courseVenueHandler();
-            table.DataSource = cVenueHandler.GetCourseList("ACCT-211");
-            table.DataBind();
+
+
+            table.DataSource = cVenueHandler.GetCourseList("CIS-220");
+                table.DataBind();
         }
     }
 }

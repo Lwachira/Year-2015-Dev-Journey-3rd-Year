@@ -25,12 +25,13 @@ namespace DataAccessLayer.courseVenueClass
                     DataRow row = table.Rows[0];
 
                     courseVenue = new wpCourseVenue();
+
                     courseVenue.CourseCode = row["CRS_CODE"].ToString();
                     courseVenue.CourseDescription = row["CRS_DESCRIPTION"].ToString();
                     courseVenue.RoomCode = row["ROOM_CODE"].ToString();
                 }
             }
-            return courseVenue;
+            return courseVenue; 
         }
 
 
