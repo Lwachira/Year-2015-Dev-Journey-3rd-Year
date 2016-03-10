@@ -15,7 +15,12 @@ namespace DataAccessLayer.courseVenueClass
             cVenueAccess = new courseVenueAccess();
         }
 
-        public wpCourseVenue GetCourseList(string course)
+        public wpCourseVenue GetCourseDetails(string course)
+        {
+            return cVenueAccess.GetCourseDetails(course);
+        }
+
+        public List<wpCourseVenue> GetCourseList(string course)
         {
             return cVenueAccess.GetCourseList(course);
         }

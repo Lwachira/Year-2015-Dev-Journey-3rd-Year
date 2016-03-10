@@ -3,6 +3,10 @@
 
     <h1>Course Venue</h1>
 
+
+    <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+    <asp:Button ID="btnSubmit" runat="server" Text="Button" CssClass="btn btn-danger" />
+
      <asp:GridView ID="table" runat="server" CssClass="table">
 
     </asp:GridView>

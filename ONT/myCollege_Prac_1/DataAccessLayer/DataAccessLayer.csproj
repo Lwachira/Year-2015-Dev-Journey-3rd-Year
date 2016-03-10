@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="courseClass\courseAccess.cs" />
+    <Compile Include="courseClass\courseHandler.cs" />
     <Compile Include="courseClass\wpCourseClass.cs" />
     <Compile Include="courseVenueClass\courseVenueAccess.cs" />
     <Compile Include="courseVenueClass\courseVenueHandler.cs" />
@@ -49,6 +51,9 @@
     <Compile Include="enrollClass\enrollHandler.cs" />
     <Compile Include="enrollClass\wpEnroll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="studentClass\studentAccess.cs" />
+    <Compile Include="studentClass\studentHandler.cs" />
+    <Compile Include="studentClass\wpStudent.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

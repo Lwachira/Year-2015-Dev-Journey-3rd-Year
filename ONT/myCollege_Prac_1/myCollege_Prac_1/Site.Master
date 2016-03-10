@@ -47,13 +47,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Tiny College Prac</a>
+                    <a class="navbar-brand" runat="server" href="index.aspx">Tiny College Prac</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="addEnroll.aspx">Enroll</a></li>
                         <li><a runat="server" href="courseVenue.aspx">Course Venue</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="totalCredit.aspx">Total Credits</a></li>
                     </ul>
                 </div>
             </div>

@@ -12,7 +12,7 @@ namespace DataAccessLayer.courseVenueClass
         
         string crsDescription;
         string roomCode;
-
+        
 
         public string CourseCode
         {
