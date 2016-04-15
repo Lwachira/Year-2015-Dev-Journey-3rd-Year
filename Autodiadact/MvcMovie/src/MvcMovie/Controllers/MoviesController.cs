@@ -3,6 +3,7 @@ using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.Rendering;
 using Microsoft.Data.Entity;
 using MvcMovie.Models;
+using Microsoft.AspNet.Http.Internal;
 
 namespace MvcMovie.Controllers
 {
@@ -27,6 +28,14 @@ namespace MvcMovie.Controllers
             }
             return View(movies);
         }
+
+
+        //[HttpPost]
+        //public string Index(FormCollection fc,string searchString)
+        //{
+        //    return "From [HttpPost]Index: filter on " + searchString;
+        //}
+
 
         // GET: Movies/Details/5
         public IActionResult Details(int? id)
