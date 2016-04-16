@@ -33,3 +33,17 @@ C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviac
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\obj\Debug\Aviaco_V1.csprojResolveAssemblyReference.cache
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\obj\Debug\Aviaco_V1.dll
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\obj\Debug\Aviaco_V1.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\csc.exe.config
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\csc.rsp
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\csi.exe
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\csi.rsp
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\System.AppContext.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\vbc.exe.config
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\vbc.rsp
