@@ -47,3 +47,9 @@ C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviac
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\vbc.exe.config
 C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\roslyn\vbc.rsp
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\BLL.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\DAL.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\BLL.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\bin\DAL.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\obj\Debug\Aviaco_V1.Properties.Resources.resources
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\Aviaco_V1\obj\Debug\Aviaco_V1.csproj.GenerateResource.Cache

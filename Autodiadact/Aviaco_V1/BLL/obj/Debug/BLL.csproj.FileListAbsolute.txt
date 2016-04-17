@@ -1,0 +1,7 @@
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\bin\Debug\BLL.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\bin\Debug\BLL.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\bin\Debug\DAL.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\bin\Debug\DAL.pdb
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\obj\Debug\BLL.dll
+C:\Users\blaze\Documents\GitHub\Year-2015-Dev-Journey 3rd Year\Autodiadact\Aviaco_V1\BLL\obj\Debug\BLL.pdb
