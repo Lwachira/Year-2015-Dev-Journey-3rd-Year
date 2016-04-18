@@ -90,7 +90,7 @@ namespace Aviaco_V1
                     lblResult.Text = "Fail";
                 }
 
-                dgvCharter.EditIndex = -1;
+               dgvCharter.EditIndex = -1;
                this.BindGrid();
 
             }
@@ -99,6 +99,11 @@ namespace Aviaco_V1
                 lblResult.Text = "It not working";
             }
 
+        }
+
+        protected void btnNewCharter_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("addCharter.aspx");
         }
     }
 }

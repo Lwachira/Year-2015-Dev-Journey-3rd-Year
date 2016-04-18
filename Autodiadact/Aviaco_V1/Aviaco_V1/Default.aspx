@@ -108,8 +108,8 @@
 
 
         </asp:GridView>
-      
 
+    <asp:Button ID="btnNewCharter" runat="server" Text="Button" OnClick="btnNewCharter_Click" />
      
     <asp:Label Text="Text" ID="lblResult" runat="server" />
        
