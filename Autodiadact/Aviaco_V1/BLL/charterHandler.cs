@@ -16,6 +16,11 @@ namespace BLL
             charterDB = new charterDBAccess();
         }
 
+        public bool AddNewCharter(classCharter charter)
+        {
+            return charterDB.AddNewCharter( charter);
+        }
+
 
         public bool UpdateCharter(classCharter charter)
         {
@@ -24,6 +29,11 @@ namespace BLL
         public List<classCharter> GetAllCharterList()
         {
             return charterDB.GetAllCharterList();
+        }
+
+        public bool DeleteCharter(int trip)
+        {
+            return charterDB.DeleteCharter(trip);
         }
 
     }

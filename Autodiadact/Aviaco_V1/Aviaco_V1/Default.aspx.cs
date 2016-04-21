@@ -14,7 +14,7 @@ namespace Aviaco_V1
         charterHandler cHandler = new charterHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
             if (IsPostBack == false)
             {
                 this.BindGrid();
@@ -47,7 +47,7 @@ namespace Aviaco_V1
         protected void dgvCharter_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {
             dgvCharter.EditIndex = -1;
-           this.BindGrid();
+            this.BindGrid();
 
         }
 
@@ -64,39 +64,44 @@ namespace Aviaco_V1
             TextBox txtOil_Qts = dgvCharter.Rows[e.RowIndex].FindControl("txtOil_Qts") as TextBox;
             TextBox txtcust_Code = dgvCharter.Rows[e.RowIndex].FindControl("txtcust_Code") as TextBox;
 
-            if (lblTrip != null && txtDate != null && txtNumber != null && txtDestination != null && txtDistance != null 
-                
+            if (lblTrip != null && txtDate != null && txtNumber != null && txtDestination != null && txtDistance != null
+
                 && txtHoursFlown != null && txtHoursWait != null && txtFuelGallons != null && txtOil_Qts != null && txtcust_Code != null)
             {
 
                 classCharter charter = new classCharter();
                 charter.char_Trip = Convert.ToInt32(lblTrip.Text.Trim());
-                charter.char_Date = DateTime.Parse( txtDate.Text);
+                charter.char_Date = DateTime.Parse(txtDate.Text);
                 charter.ac_Number = txtNumber.Text;
                 charter.char_Destination = txtDestination.Text;
                 charter.char_Distance = int.Parse(txtDistance.Text);
                 charter.char_Hours_Flown = double.Parse(txtHoursFlown.Text);
-                charter.char_Hours_Wait = double.Parse( txtHoursWait.Text);
-                charter.char_Fuel_Gallons = double.Parse( txtFuelGallons.Text);
+                charter.char_Hours_Wait = double.Parse(txtHoursWait.Text);
+                charter.char_Fuel_Gallons = double.Parse(txtFuelGallons.Text);
                 charter.char_Oil_Qts = int.Parse(txtOil_Qts.Text);
-                charter.cus_Code = int.Parse( txtOil_Qts.Text);
+                charter.cus_Code = int.Parse(txtOil_Qts.Text);
 
                 if (cHandler.UpdateCharter(charter) == true)
                 {
-                    lblResult.Text = "Success";
+                    ScriptManager.RegisterClientScriptBlock(Page, typeof(Page), "ClientScript", "alert('Success')", true);
+
+                   
                 }
                 else
                 {
-                    lblResult.Text = "Fail";
+                    ScriptManager.RegisterClientScriptBlock(Page, typeof(Page), "ClientScript", "alert('Fail')", true);
+
+                  
                 }
 
-               dgvCharter.EditIndex = -1;
-               this.BindGrid();
+                dgvCharter.EditIndex = -1;
+                this.BindGrid();
 
             }
             else
             {
-                lblResult.Text = "It not working";
+                ScriptManager.RegisterClientScriptBlock(Page, typeof(Page), "ClientScript", "alert('It not working')", true);
+                
             }
 
         }
@@ -105,5 +110,44 @@ namespace Aviaco_V1
         {
             Response.Redirect("addCharter.aspx");
         }
+
+        protected void dgvCharter_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+            HiddenField field = dgvCharter.Rows[e.RowIndex].FindControl("sID") as HiddenField;
+            int id = Convert.ToInt32(field.Value);
+            if (cHandler.DeleteCharter(id) == false)
+            {
+                //lblResult.Text = "Record Deleted successfully";
+                ScriptManager.RegisterClientScriptBlock(Page, typeof(Page), "ClientScript", "alert('Record Deleted successfully')", true);
+
+
+            }
+
+            else
+            {
+                //lblResult.Text = "Failed to Delete Record";
+                ScriptManager.RegisterClientScriptBlock(Page, typeof(Page), "ClientScript", "alert('Failed to Delete Record')", true);
+
+            }
+
+            dgvCharter.EditIndex = -1;
+            this.BindGrid();
+        }
+
+        protected void dgvCharter_RowDeleted(object sender, GridViewDeletedEventArgs e)
+        {
+
+            dgvCharter.EditIndex = -1;
+            this.BindGrid();
+        }
+
+        protected void dgvCharter_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+            GridViewRow row = dgvCharter.Rows[e.NewSelectedIndex];
+
+        }
     }
 }
+
+

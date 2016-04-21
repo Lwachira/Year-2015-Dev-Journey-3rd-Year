@@ -10,24 +10,33 @@
 namespace Aviaco_V1 {
     
     
-    public partial class _Default {
+    public partial class pilotName {
         
         /// <summary>
-        /// dgvCharter control.
+        /// txtDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvCharter;
+        protected global::System.Web.UI.WebControls.TextBox txtDate;
         
         /// <summary>
-        /// btnNewCharter control.
+        /// drpDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNewCharter;
+        protected global::System.Web.UI.WebControls.DropDownList drpDate;
+        
+        /// <summary>
+        /// btnDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDate;
     }
 }

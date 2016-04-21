@@ -11,6 +11,26 @@ namespace DAL
    public class charterDBAccess
     {
 
+
+        public bool AddNewCharter(classCharter charter)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+           {
+            new SqlParameter("@TRIP", charter.char_Trip),
+            new SqlParameter("@DATE", charter.char_Date),
+            new SqlParameter("@NUMBER", charter.ac_Number),
+            new SqlParameter("@DESTINATION", charter.char_Destination),
+            new SqlParameter("@DISTANCE", charter.char_Distance),
+            new SqlParameter("@HOURS_FLOWN", charter.char_Hours_Flown),
+            new SqlParameter("@HOURS_WAIT", charter.char_Hours_Wait),
+            new SqlParameter("@FUEL_GALLONS", charter.char_Fuel_Gallons),
+            new SqlParameter("@OIL_QTS", charter.char_Oil_Qts),
+            new SqlParameter("@Customer_CODE", charter.cus_Code)
+           };
+
+            return SqlDbHelper.ExecuteNonQuery("uspCaptureCharter", CommandType.StoredProcedure, parameters);
+        }
+
         public bool UpdateCharter(classCharter charter)
         {
             SqlParameter[] parameters = new SqlParameter[]
@@ -30,6 +50,16 @@ namespace DAL
             return SqlDbHelper.ExecuteNonQuery("uspUpdateCharter", CommandType.StoredProcedure, parameters);
         }
 
+
+        public bool DeleteCharter(int trip)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@TRIP",trip)
+            };
+
+            return SqlDbHelper.ExecuteNonQuery("uspDeleteCharter", CommandType.StoredProcedure, parameters);
+        }
 
         public List<classCharter> GetAllCharterList()
         {

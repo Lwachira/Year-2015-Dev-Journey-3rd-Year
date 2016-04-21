@@ -10,24 +10,33 @@
 namespace Aviaco_V1 {
     
     
-    public partial class _Default {
+    public partial class pilotHours {
         
         /// <summary>
-        /// dgvCharter control.
+        /// txtPilotID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvCharter;
+        protected global::System.Web.UI.WebControls.TextBox txtPilotID;
         
         /// <summary>
-        /// btnNewCharter control.
+        /// lblDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNewCharter;
+        protected global::System.Web.UI.WebControls.Label lblDisplay;
+        
+        /// <summary>
+        /// btnSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSearch;
     }
 }

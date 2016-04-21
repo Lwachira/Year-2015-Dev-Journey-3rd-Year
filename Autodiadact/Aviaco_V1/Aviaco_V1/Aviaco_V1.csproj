@@ -129,6 +129,8 @@
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <None Include="Resources\Image1.bmp" />
     <None Include="Images\logo.png" />
+    <Content Include="pilotHours.aspx" />
+    <Content Include="pilotName.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
@@ -208,6 +210,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="pilotHours.aspx.cs">
+      <DependentUpon>pilotHours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pilotHours.aspx.designer.cs">
+      <DependentUpon>pilotHours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pilotName.aspx.cs">
+      <DependentUpon>pilotName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pilotName.aspx.designer.cs">
+      <DependentUpon>pilotName.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
