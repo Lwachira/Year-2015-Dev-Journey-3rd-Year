@@ -1,0 +1,59 @@
+@model Aviaco_V2.Models.AIRCRAFT
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>AIRCRAFT</h4>
+        <hr />
+        <div asp-validation-summary="ValidationSummary.ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="AC_NUMBER" />
+        <div class="form-group">
+            <label asp-for="AC_TTAF" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AC_TTAF" class="form-control" />
+                <span asp-validation-for="AC_TTAF" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AC_TTEL" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AC_TTEL" class="form-control" />
+                <span asp-validation-for="AC_TTEL" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AC_TTER" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AC_TTER" class="form-control" />
+                <span asp-validation-for="AC_TTER" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="MOD_CODE" class="control-label col-md-2">MOD_CODE</label>
+            <div class="col-md-10">
+                <select asp-for="MOD_CODE" class="form-control" />
+                <span asp-validation-for="MOD_CODE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

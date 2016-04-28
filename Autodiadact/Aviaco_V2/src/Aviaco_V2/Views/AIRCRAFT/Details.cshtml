@@ -1,0 +1,36 @@
+@model Aviaco_V2.Models.AIRCRAFT
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AIRCRAFT</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AC_TTAF)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AC_TTAF)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AC_TTEL)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AC_TTEL)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AC_TTER)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AC_TTER)
+        </dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.AC_NUMBER">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

@@ -1228,6 +1228,27 @@
           "lib/dnx451/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
         }
       },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2953,6 +2974,22 @@
         },
         "runtime": {
           "lib/dnxcore50/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
+        }
+      },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6",
+          "System.Runtime": "4.0.21-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
@@ -5705,6 +5742,27 @@
           "lib/dnx451/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
         }
       },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -7620,6 +7678,27 @@
           "lib/dnx451/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
         }
       },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -9348,6 +9427,22 @@
         },
         "runtime": {
           "lib/dnxcore50/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
+        }
+      },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6",
+          "System.Runtime": "4.0.21-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
@@ -12372,6 +12467,22 @@
           "lib/dnxcore50/Microsoft.Extensions.CodeGeneration.Templating.dll": {}
         }
       },
+      "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.CodeGeneration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.EntityFramework": "1.0.0-rc1-final",
+          "Microsoft.Extensions.CodeGeneration.Templating": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6",
+          "System.Runtime": "4.0.21-beta-23516"
+        },
+        "compile": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -15302,6 +15413,51 @@
         "Microsoft.Extensions.CodeGeneration.Templating.1.0.0-rc1-final.nupkg",
         "Microsoft.Extensions.CodeGeneration.Templating.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.Extensions.CodeGeneration.Templating.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.CodeGenerators.Mvc/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "rkec5T1UW17vRb6rPWEDOq4WHj7+mu8IKWuea9I05YKDACo/EBgDhqp4aoZrOsNzoEH6k+NlL0FRa3o5s9vglA==",
+      "files": [
+        "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.dll",
+        "lib/dnx451/Microsoft.Extensions.CodeGenerators.Mvc.xml",
+        "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.dll",
+        "lib/dnxcore50/Microsoft.Extensions.CodeGenerators.Mvc.xml",
+        "Microsoft.Extensions.CodeGenerators.Mvc.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.CodeGenerators.Mvc.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.CodeGenerators.Mvc.nuspec",
+        "Templates/ControllerGenerator/ApiControllerWithContext.cshtml",
+        "Templates/ControllerGenerator/EmptyController.cshtml",
+        "Templates/ControllerGenerator/MvcControllerWithContext.cshtml",
+        "Templates/MvcLayout/_Layout.cshtml",
+        "Templates/MvcLayout/Error.cshtml",
+        "Templates/Startup/ReadMe.cshtml",
+        "Templates/Startup/Startup.cshtml",
+        "Templates/StaticFiles/Content/bootstrap.css",
+        "Templates/StaticFiles/Content/bootstrap.min.css",
+        "Templates/StaticFiles/Content/Scripts/_references.js",
+        "Templates/StaticFiles/Content/Scripts/bootstrap.js",
+        "Templates/StaticFiles/Content/Scripts/bootstrap.min.js",
+        "Templates/StaticFiles/Content/Scripts/jquery.validate.js",
+        "Templates/StaticFiles/Content/Scripts/jquery.validate.min.js",
+        "Templates/StaticFiles/Content/Scripts/jquery.validate.unobtrusive.js",
+        "Templates/StaticFiles/Content/Scripts/jquery.validate.unobtrusive.min.js",
+        "Templates/StaticFiles/Content/Scripts/jquery.validate-vsdoc.js",
+        "Templates/StaticFiles/Content/Scripts/jquery-1.10.2.intellisense.js",
+        "Templates/StaticFiles/Content/Scripts/jquery-1.10.2.js",
+        "Templates/StaticFiles/Content/Scripts/jquery-1.10.2.min.js",
+        "Templates/StaticFiles/Content/Scripts/jquery-1.10.2.min.map",
+        "Templates/StaticFiles/Content/Scripts/modernizr-2.6.2.js",
+        "Templates/StaticFiles/Content/Scripts/respond.js",
+        "Templates/StaticFiles/Content/Scripts/respond.min.js",
+        "Templates/StaticFiles/Content/Site.css",
+        "Templates/ViewGenerator/Create.cshtml",
+        "Templates/ViewGenerator/Delete.cshtml",
+        "Templates/ViewGenerator/Details.cshtml",
+        "Templates/ViewGenerator/Edit.cshtml",
+        "Templates/ViewGenerator/List.cshtml",
+        "THIRDPARTYNOTICE ASP.NET_Preview.rtf"
       ]
     },
     "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
@@ -19909,12 +20065,13 @@
       "Microsoft.AspNet.StaticFiles >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-rc1-final",
       "Microsoft.Extensions.CodeGeneration >= 1.0.0-rc1-final",
+      "Microsoft.Extensions.CodeGeneration.EntityFramework >= 1.0.0-rc1-final",
+      "Microsoft.Extensions.CodeGenerators.Mvc >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Configuration.FileProviderExtensions >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Configuration.Json >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Console >= 1.0.0-rc1-final",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
-      "Microsoft.Extensions.CodeGeneration.EntityFramework >= 1.0.0-rc1-final",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
     "DNX,Version=v4.5.1": [],
