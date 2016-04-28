@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62797739-5CD2-4464-89B1-F9DAC3129E7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB87F1E2-847D-4D29-8866-54821831323C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AviaCo", "src\AviaCo\AviaCo.xproj", "{D79C1951-AB3C-4107-9E50-03FEB18A3A58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D79C1951-AB3C-4107-9E50-03FEB18A3A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79C1951-AB3C-4107-9E50-03FEB18A3A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79C1951-AB3C-4107-9E50-03FEB18A3A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79C1951-AB3C-4107-9E50-03FEB18A3A58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D79C1951-AB3C-4107-9E50-03FEB18A3A58} = {62797739-5CD2-4464-89B1-F9DAC3129E7C}
+	EndGlobalSection
+EndGlobal
