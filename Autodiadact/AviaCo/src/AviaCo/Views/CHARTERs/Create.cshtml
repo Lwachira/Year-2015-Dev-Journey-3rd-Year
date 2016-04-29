@@ -1,0 +1,92 @@
+@model AviaCo.Models.CHARTER
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>CHARTER</h4>
+        <hr />
+        <div asp-validation-summary="ValidationSummary.All" class="text-danger"></div>
+        @*<div class="form-group">
+            <label asp-for="AC_NUMBER" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                
+                <input type="number" asp-for="AC_NUMBER"  class ="form-control"/>
+            </div>
+        </div>*@
+        <div class="form-group">
+            <label asp-for="CHAR_DATE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="date" asp-for="CHAR_DATE" class="form-control" />
+                <span asp-validation-for="CHAR_DATE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_DESTINATION" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_DESTINATION" class="form-control" />
+                <span asp-validation-for="CHAR_DESTINATION" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_DISTANCE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_DISTANCE" class="form-control" />
+                <span asp-validation-for="CHAR_DISTANCE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_FUEL_GALLONS" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_FUEL_GALLONS" class="form-control" />
+                <span asp-validation-for="CHAR_FUEL_GALLONS" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_HOURS_FLOWN" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_HOURS_FLOWN" class="form-control" />
+                <span asp-validation-for="CHAR_HOURS_FLOWN" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_HOURS_WAIT" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_HOURS_WAIT" class="form-control" />
+                <span asp-validation-for="CHAR_HOURS_WAIT" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CHAR_OIL_QTS" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CHAR_OIL_QTS" class="form-control" />
+                <span asp-validation-for="CHAR_OIL_QTS" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_CODE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="CUS_CODE" class ="form-control"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

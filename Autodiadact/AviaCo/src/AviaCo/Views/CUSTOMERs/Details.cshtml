@@ -1,0 +1,54 @@
+@model AviaCo.Models.CUSTOMER
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CUSTOMER</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_AREACODE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_AREACODE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_BALANCE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_BALANCE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_FNAME)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_FNAME)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_INITIAL)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_INITIAL)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_LNAME)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_LNAME)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_PHONE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_PHONE)
+        </dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.CUS_CODE">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

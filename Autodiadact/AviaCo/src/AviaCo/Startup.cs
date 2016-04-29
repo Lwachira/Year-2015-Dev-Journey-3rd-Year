@@ -7,6 +7,8 @@ using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using AviaCo.Models;
+using Microsoft.Data.Entity; 
 
 namespace AviaCo
 {
@@ -33,6 +35,9 @@ namespace AviaCo
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+
+            var connection = "Data Source = DESKTOP - S2DDF7Q; Initial Catalog = AVIACO; Integrated Security = True;";
+            services.AddEntityFramework().AddSqlServer().AddDbContext<AVIACOContext>(options => options.UseSqlServer(connection));
             services.AddApplicationInsightsTelemetry(Configuration);
 
             services.AddMvc();

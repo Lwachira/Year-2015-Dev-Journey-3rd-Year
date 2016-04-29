@@ -1,0 +1,72 @@
+@model AviaCo.Models.CUSTOMER
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>CUSTOMER</h4>
+        <hr />
+        <div asp-validation-summary="ValidationSummary.ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="CUS_AREACODE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_AREACODE" class="form-control" />
+                <span asp-validation-for="CUS_AREACODE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_BALANCE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_BALANCE" class="form-control" />
+                <span asp-validation-for="CUS_BALANCE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_FNAME" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_FNAME" class="form-control" />
+                <span asp-validation-for="CUS_FNAME" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_INITIAL" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_INITIAL" class="form-control" />
+                <span asp-validation-for="CUS_INITIAL" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_LNAME" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_LNAME"  class="form-control" />
+                <span asp-validation-for="CUS_LNAME" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CUS_PHONE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_PHONE" class="form-control" />
+                <span asp-validation-for="CUS_PHONE" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

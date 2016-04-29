@@ -1,0 +1,62 @@
+@model IEnumerable<AviaCo.Models.CUSTOMER>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_AREACODE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_BALANCE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_FNAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_INITIAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_LNAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_PHONE)
+        </th>
+        <th></th>
+    </tr>
+    
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_AREACODE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_BALANCE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_FNAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_INITIAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_LNAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CUS_PHONE)
+        </td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.CUS_CODE">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.CUS_CODE">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.CUS_CODE">Delete</a>
+        </td>
+    </tr>
+}
+</table>

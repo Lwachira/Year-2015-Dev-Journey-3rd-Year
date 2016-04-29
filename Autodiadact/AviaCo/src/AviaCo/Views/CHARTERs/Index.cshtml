@@ -1,0 +1,68 @@
+@model IEnumerable<AviaCo.Models.CHARTER>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Charter Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_DATE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_DESTINATION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_DISTANCE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_FUEL_GALLONS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_HOURS_FLOWN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_HOURS_WAIT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHAR_OIL_QTS)
+        </th>
+        <th></th>
+    </tr>
+    
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_DATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_DESTINATION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_DISTANCE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_FUEL_GALLONS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_HOURS_FLOWN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_HOURS_WAIT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_OIL_QTS)
+        </td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.CHAR_TRIP">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.CHAR_TRIP">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.CHAR_TRIP">Delete</a>
+        </td>
+    </tr>
+}
+</table>
