@@ -43,7 +43,7 @@ namespace AviaCo.Controllers
         // GET: CHARTERs/Create
         public IActionResult Create()
         {
-            ViewData["AC_NUMBER"] = new SelectList(_context.AIRCRAFT, "AC_NUMBER", "AC_NUMBERNavigation");
+            ViewData["AC_NUMBER"] = new SelectList(_context.AIRCRAFT, "AC_NUMBER","AC_NUMBERNavigation");
             ViewData["CUS_CODE"] = new SelectList(_context.CUSTOMER, "CUS_CODE", "CUS_CODENavigation");
             return View();
         }
@@ -60,6 +60,7 @@ namespace AviaCo.Controllers
                 return RedirectToAction("Index");
             }
             ViewData["AC_NUMBER"] = new SelectList(_context.AIRCRAFT, "AC_NUMBER", "AC_NUMBERNavigation", cHARTER.AC_NUMBER);
+
             ViewData["CUS_CODE"] = new SelectList(_context.CUSTOMER, "CUS_CODE", "CUS_CODENavigation", cHARTER.CUS_CODE);
             return View(cHARTER);
         }

@@ -10,12 +10,12 @@
     <div class="form-horizontal">
         <h4>CHARTER</h4>
         <hr />
-        <div asp-validation-summary="ValidationSummary.ModelOnly" class="text-danger"></div>
+        <div asp-validation-summary="ValidationSummary.All" class="text-danger"></div>
         <input type="hidden" asp-for="CHAR_TRIP" />
         <div class="form-group">
             <label asp-for="AC_NUMBER" class="control-label col-md-2">AC_NUMBER</label>
             <div class="col-md-10">
-                <select asp-for="AC_NUMBER" class="form-control" />
+                <select asp-for="AC_NUMBER"  class="form-control" />
                 <span asp-validation-for="AC_NUMBER" class="text-danger" />
             </div>
         </div>

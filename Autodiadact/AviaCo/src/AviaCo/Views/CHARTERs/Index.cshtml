@@ -12,6 +12,10 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.CHAR_TRIP)
+        </th>
+
+        <th>
             @Html.DisplayNameFor(model => model.CHAR_DATE)
         </th>
         <th>
@@ -32,11 +36,17 @@
         <th>
             @Html.DisplayNameFor(model => model.CHAR_OIL_QTS)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CUS_CODE)
+        </th>
         <th></th>
     </tr>
     
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHAR_TRIP)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.CHAR_DATE)
         </td>
@@ -58,6 +68,9 @@
         <td>
             @Html.DisplayFor(modelItem => item.CHAR_OIL_QTS)
         </td>
+        <th>
+            @Html.DisplayFor(modelItem => item.CUS_CODE)
+        </th>
         <td>
             <a asp-action="Edit" asp-route-id="@item.CHAR_TRIP">Edit</a> |
             <a asp-action="Details" asp-route-id="@item.CHAR_TRIP">Details</a> |
