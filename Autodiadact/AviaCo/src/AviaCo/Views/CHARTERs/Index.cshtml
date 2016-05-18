@@ -1,10 +1,10 @@
 @model IEnumerable<AviaCo.Models.CHARTER>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Charter Index";
 }
 
-<h2>Charter Index</h2>
+<h2>@ViewData["Title"]</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -17,6 +17,10 @@
 
         <th>
             @Html.DisplayNameFor(model => model.CHAR_DATE)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.AC_NUMBER)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CHAR_DESTINATION)
@@ -49,6 +53,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CHAR_DATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AC_NUMBER)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CHAR_DESTINATION)

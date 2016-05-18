@@ -1,10 +1,10 @@
 @model AviaCo.Models.CHARTER
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Charter Details";
 }
 
-<h2>Details</h2>
+<h2>@ViewData["Title"]</h2>
 
 <div>
     <h4>CHARTER</h4>
@@ -16,6 +16,15 @@
         <dd>
             @Html.DisplayFor(model => model.CHAR_DATE)
         </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AC_NUMBER)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AC_NUMBER)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.CHAR_DESTINATION)
         </dt>
@@ -51,6 +60,13 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.CHAR_OIL_QTS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CUS_CODE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CUS_CODE)
         </dd>
     </dl>
 </div>

@@ -1,15 +1,15 @@
 @model IEnumerable<AviaCo.Models.CUSTOMER>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Customer Index";
 }
 
-<h2>Index</h2>
+<h2>@ViewData["Title"]</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-striped table-hover">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.CUS_AREACODE)

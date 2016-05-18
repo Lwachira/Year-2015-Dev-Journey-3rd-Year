@@ -1,10 +1,11 @@
 @model AviaCo.Models.CHARTER
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Charter Edit";
 }
 
-<h2>Edit</h2>
+
+<h2>@ViewData["Title"]</h2>
 
 <form asp-action="Edit">
     <div class="form-horizontal">
@@ -12,20 +13,28 @@
         <hr />
         <div asp-validation-summary="ValidationSummary.All" class="text-danger"></div>
         <input type="hidden" asp-for="CHAR_TRIP" />
-        <div class="form-group">
+        @*<div class="form-group">
             <label asp-for="AC_NUMBER" class="control-label col-md-2">AC_NUMBER</label>
             <div class="col-md-10">
-                <select asp-for="AC_NUMBER"  class="form-control" />
+                <select asp-for="AC_NUMBER" class="form-control" />
                 <span asp-validation-for="AC_NUMBER" class="text-danger" />
             </div>
-        </div>
+        </div>*@
         <div class="form-group">
             <label asp-for="CHAR_DATE" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="CHAR_DATE" class="form-control" />
+                <input asp-for="CHAR_DATE" type="date" class="form-control" />
                 <span asp-validation-for="CHAR_DATE" class="text-danger" />
             </div>
         </div>
+        <div class="form-group">
+            <label asp-for="AC_NUMBER" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AC_NUMBER" class="form-control" />
+                <span asp-validation-for="AC_NUMBER" class="text-danger" />
+            </div>
+        </div>
+
         <div class="form-group">
             <label asp-for="CHAR_DESTINATION" class="col-md-2 control-label"></label>
             <div class="col-md-10">
@@ -68,13 +77,24 @@
                 <span asp-validation-for="CHAR_OIL_QTS" class="text-danger" />
             </div>
         </div>
+
+
         <div class="form-group">
+            <label asp-for="CUS_CODE" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="CUS_CODE" class="form-control" />
+                <span asp-validation-for="CUS_CODE" class="text-danger" />
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
             <label asp-for="CUS_CODE" class="control-label col-md-2">CUS_CODE</label>
             <div class="col-md-10">
                 <select asp-for="CUS_CODE" class="form-control" />
                 <span asp-validation-for="CUS_CODE" class="text-danger" />
             </div>
-        </div>
+        </div>*@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Save" class="btn btn-default" />
