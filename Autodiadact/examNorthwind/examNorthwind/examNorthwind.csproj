@@ -154,6 +154,9 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DAL Code\DBHelper.cs" />
+    <Compile Include="DAL Code\ShipperDBAccess.cs" />
+    <Compile Include="DAL Code\Shippers.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

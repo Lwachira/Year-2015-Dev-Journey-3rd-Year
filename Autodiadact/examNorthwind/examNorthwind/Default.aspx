@@ -44,7 +44,7 @@
 
      <div class="row">
         <div class="col-md-4">
-            <h2>Return All Shipper</h2>
+            <h2>View All Shipper</h2>
             <p>
                  </p>
             <p>
@@ -52,13 +52,14 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Return Shipper</h2>
+            <h2>View Shipper</h2>
             <p>
             </p>
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
             </p>
         </div>
+
        
     </div>
 
