@@ -6,7 +6,7 @@
     <div class="jumbotron">
        
         <div class="container">
-              <h1>Northwind Prac</h1>
+              <h1>Northwind</h1>
             <p class="lead">The benefits of having n-tier architecture is that all the modules having dedicated functionality will be independent of each other.</p>
 
 
@@ -20,7 +20,7 @@
             <p>
                 </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
+                <a class="btn btn-default"   href="Default.aspx">Click Me</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -28,7 +28,7 @@
             <p>
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
+                <a class="btn btn-default"   href="Default.aspx">Click Me</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -36,7 +36,7 @@
             <p>
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
+                <a class="btn btn-default"   href="Default.aspx">Click Me</a>
             </p>
         </div>
     </div>
@@ -48,7 +48,7 @@
             <p>
                  </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
+                <a class="btn btn-default"   href="Views/AllShipper.aspx">Click Me</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -56,7 +56,7 @@
             <p>
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">&raquo;</a>
+                <a class="btn btn-default"   href="Views/Shipper.aspx">Click Me</a>
             </p>
         </div>
 

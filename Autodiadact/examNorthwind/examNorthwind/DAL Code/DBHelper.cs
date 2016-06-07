@@ -12,7 +12,7 @@ namespace DAL
 {
     class DBHelper
     {
-        const string CONNECTION_STRING = "server=DIETER-L;database=northwind;Integrated Security=True";
+        const string CONNECTION_STRING = "server=localhost;database=Northwind;Integrated Security=True";
         //==================================================================================================================================================================================================
         #region ExecuteScalarCommand()
         internal static DataTable ExecuteScalarCommand(string commandName, CommandType cmdType)
@@ -58,6 +58,7 @@ namespace DAL
                 {
                     cmd.CommandType = cmdType;
                     cmd.CommandText = commandName;
+                    cmd.Parameters.AddRange(param);
 
                     try
                     {
